@@ -1,3 +1,23 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-130
-#docs: 130 #processed: 0
+131
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+	Tesseract on page: 1
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403111420086304.pdf: >शासन निर्णय क्रमांक< >रासयो-२०२४/प्र.क्र.9१/आस्थापना अ<
+	elapsed_time:202403111420086304.pdf: 0.000099
+  exec_task: doc_translator_hf 
+    Paras: #79 Sentences: #0
+	[0]  #words: 260 #sentences: 65
+	After generate: 13 MB
+	[1]  #words: 261 #sentences: 28
+	After generate: 13 MB
+	[2]  #words: 237 #sentences: 17
+	After generate: 13 MB
+  exec_task: text_writer 
+#docs: 131 #processed: 1
