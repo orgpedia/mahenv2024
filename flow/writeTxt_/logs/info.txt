@@ -1,23 +1,111 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-131
+136
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
   exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:26 Errors=26 TableEmptyBodyCellError=26
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403121618148204.pdf: >शासन शुध्दिपत्रक क्रमांक< >मावअ २०२३/प्र.क्र. ८३/तां.क.१<
+	elapsed_time:202403121618148204.pdf: 0.000100
+  exec_task: doc_translator_hf 
+    Paras: #37 Sentences: #299
+	[0]  #words: 261 #sentences: 93
+	After generate: 3 MB
+	[1]  #words: 260 #sentences: 35
+	After generate: 3 MB
+	[2]  #words: 261 #sentences: 22
+	After generate: 3 MB
+	[3]  #words: 79 #sentences: 8
+	After generate: 3 MB
+	[0]  #words: 245 #sentences: 43
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403121619047204.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
 	Tesseract on page: 1
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:10 Errors=10 TableEmptyBodyCellError=10
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403121619047204.pdf: >शासन निर्णय क्रमांक< >याचिका-२०२३/प्र.क्र.१७७/तां.क.२<
+	elapsed_time:202403121619047204.pdf: 0.000104
+  exec_task: doc_translator_hf 
+    Paras: #50 Sentences: #52
+	[0]  #words: 193 #sentences: 51
+	After generate: 6 MB
+	[0]  #words: 257 #sentences: 55
+	After generate: 11 MB
+	[1]  #words: 269 #sentences: 16
+	After generate: 11 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403121621398204.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
   exec_task: pdftable_finder 
 	==Total:0 Errors=0 
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403111420086304.pdf: >शासन निर्णय क्रमांक< >रासयो-२०२४/प्र.क्र.9१/आस्थापना अ<
-	elapsed_time:202403111420086304.pdf: 0.000099
+	extract_order_number:202403121621398204.pdf: >शासन निर्णय क्रमांक< >मावअ २०२३/प्र.क्र. ८३(१)/तां.क.१<
+	elapsed_time:202403121621398204.pdf: 0.000085
   exec_task: doc_translator_hf 
-    Paras: #79 Sentences: #0
-	[0]  #words: 260 #sentences: 65
-	After generate: 13 MB
-	[1]  #words: 261 #sentences: 28
-	After generate: 13 MB
-	[2]  #words: 237 #sentences: 17
-	After generate: 13 MB
+    Paras: #38 Sentences: #0
+	[0]  #words: 263 #sentences: 37
+	After generate: 11 MB
+	[1]  #words: 138 #sentences: 7
+	After generate: 11 MB
   exec_task: text_writer 
-#docs: 131 #processed: 1
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403121628547404.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403121628547404.pdf: Unable to find order
+	elapsed_time:202403121628547404.pdf: 0.000029
+  exec_task: doc_translator_hf 
+    Paras: #71 Sentences: #66
+	[0]  #words: 239 #sentences: 45
+	After generate: 11 MB
+	[0]  #words: 260 #sentences: 48
+	After generate: 11 MB
+	[1]  #words: 260 #sentences: 22
+	After generate: 11 MB
+	[2]  #words: 42 #sentences: 3
+	After generate: 11 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403121633102704.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403121633102704.pdf: >शासन शुध्दिपत्रक क्रमांक< >राकृक-२०२३/प्र.क्र.९७/तां.क.१<
+	elapsed_time:202403121633102704.pdf: 0.000086
+  exec_task: doc_translator_hf 
+    Paras: #63 Sentences: #168
+	[0]  #words: 263 #sentences: 97
+	After generate: 11 MB
+	[1]  #words: 154 #sentences: 16
+	After generate: 11 MB
+	[0]  #words: 261 #sentences: 50
+	After generate: 11 MB
+	[1]  #words: 205 #sentences: 17
+	After generate: 11 MB
+  exec_task: text_writer 
+#docs: 136 #processed: 5
