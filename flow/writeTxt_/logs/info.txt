@@ -1,9 +1,128 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-153
+157
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403151327565104.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151327565104.pdf: >शासन निर्णय क्रमांक< >रानयो-२०२२/प्र.क्र.१८२/आस्थापना-अ<
+	elapsed_time:202403151327565104.pdf: 0.000092
+  exec_task: doc_translator_hf 
+    Paras: #76 Sentences: #0
+	[0]  #words: 262 #sentences: 64
+	After generate: 4 MB
+	[1]  #words: 261 #sentences: 26
+	After generate: 4 MB
+	[2]  #words: 166 #sentences: 14
+	After generate: 4 MB
+  exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-**** PIPEERROR IN 202403151330340904.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
-#docs: 153 #processed: 2
+  exec_task: word_recognizer 
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:43 Errors=43 TableEmptyBodyCellError=43
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403151330340904.pdf: >शासन निर्णय क्रमांक< >रासयो-२०२२/प्र.क्र.९४/आस्थापना-अ<
+	elapsed_time:202403151330340904.pdf: 0.000140
+  exec_task: doc_translator_hf 
+    Paras: #70 Sentences: #15
+	[0]  #words: 45 #sentences: 13
+	After generate: 4 MB
+	[0]  #words: 262 #sentences: 55
+	After generate: 4 MB
+	[1]  #words: 258 #sentences: 25
+	After generate: 4 MB
+	[2]  #words: 136 #sentences: 11
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403161931099204.pdf missing_cmaps: mangalbold
+  exec_task: word_recognizer 
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:19 Errors=19 TableEmptyBodyCellError=19
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403161931099204.pdf: >शासन निर्णय क्रमांक< >रानयो २०२४/प्र.क्र.७८/आस्थापना अ<
+	elapsed_time:202403161931099204.pdf: 0.000109
+  exec_task: doc_translator_hf 
+    Paras: #58 Sentences: #15
+	[0]  #words: 46 #sentences: 13
+	After generate: 4 MB
+	[0]  #words: 266 #sentences: 48
+	After generate: 4 MB
+	[1]  #words: 212 #sentences: 19
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403161931151004.pdf missing_cmaps: mangalbold
+  exec_task: word_recognizer 
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:26 Errors=26 TableEmptyBodyCellError=26
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403161931151004.pdf: >शासन निर्णय क्रमांक< >रानयो २०२४/प्र.क्र.७९/आस्थापना अ<
+	elapsed_time:202403161931151004.pdf: 0.000111
+  exec_task: doc_translator_hf 
+    Paras: #58 Sentences: #15
+	[0]  #words: 48 #sentences: 13
+	After generate: 4 MB
+	[0]  #words: 265 #sentences: 50
+	After generate: 4 MB
+	[1]  #words: 198 #sentences: 18
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403161931195204.pdf missing_cmaps: mangalbold
+  exec_task: word_recognizer 
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:21 Errors=21 TableEmptyBodyCellError=21
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403161931195204.pdf: >शासन निर्णय क्रमांक< >रानयो २०२४/प्र.क्र. ७६/आस्थापना अ<
+	elapsed_time:202403161931195204.pdf: 0.000102
+  exec_task: doc_translator_hf 
+    Paras: #57 Sentences: #15
+	[0]  #words: 48 #sentences: 13
+	After generate: 4 MB
+	[0]  #words: 264 #sentences: 49
+	After generate: 4 MB
+	[1]  #words: 215 #sentences: 19
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403161931240004.pdf missing_cmaps: mangalbold
+  exec_task: word_recognizer 
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:19 Errors=19 TableEmptyBodyCellError=19
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403161931240004.pdf: >शासन निर्णय क्रमांक< >रानयो २०२४/प्र.क्र.७७/आस्थापना अ<
+	elapsed_time:202403161931240004.pdf: 0.000169
+  exec_task: doc_translator_hf 
+    Paras: #56 Sentences: #15
+	[0]  #words: 47 #sentences: 13
+	After generate: 4 MB
+	[0]  #words: 264 #sentences: 48
+	After generate: 4 MB
+	[1]  #words: 215 #sentences: 19
+	After generate: 4 MB
+  exec_task: text_writer 
+#docs: 157 #processed: 6
